@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Connect-4 Game with AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Connect-4, a classic two-player strategy game implemented using ReactJS with an AI-twist. This web application allows two people to play the game against each other and features a basic AI that tries to block your winning moves. Have fun and see who can connect four of their discs in a row first!
 
-## Available Scripts
+![Connect-4 Gameplay](connect-4.gif)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Connect-4 Game with AI](#connect-4-game-with-ai)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+  - [Usage](#usage)
+  - [AI Implementation](#ai-implementation)
+  - [Contributing](#contributing)
+  - [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Play Connect-4 against another person
+- Challenge the basic AI that tries to block your winning moves
+- Interactive and user-friendly interface built with ReactJS
+- Responsive design for a seamless gaming experience on various devices
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get started with Connect-4 on your local machine, follow these steps:
 
-### `npm run build`
+1. **Clone the repository**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/mishrakushal/connect-4.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Navigate to the project directory**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd connect-4
+   ```
 
-### `npm run eject`
+3. **Install dependencies**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Start the development server**:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Open your web browser and access the game at `http://localhost:3000`.
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Launch the game by following the "Getting Started" instructions.
+2. You can choose to play against another person or challenge the AI.
+3. Take turns placing your discs on the game board by clicking on an available column.
+4. The game will automatically detect if a player has connected four discs vertically, horizontally, or diagonally to determine the winner.
+5. Enjoy the game and have fun competing with your friend or the AI!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## AI Implementation
 
-### Code Splitting
+The basic AI in this Connect-4 game is implemented using a simple algorithm that aims to block the opponent from forming a winning combination. It analyzes the current state of the game board and strategically places its discs to hinder the opponent's progress.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The AI's intelligence level can be adjusted and enhanced to make it more challenging for players who want a tougher opponent.
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions are welcome! If you want to contribute to this project, please follow these steps:
 
-### Making a Progressive Web App
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Create a pull request, explaining your changes and their benefits.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
