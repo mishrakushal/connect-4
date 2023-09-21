@@ -6,14 +6,13 @@ Welcome to Connect-4, a classic two-player strategy game implemented using React
 
 ## Table of Contents
 
-- [Connect-4 Game with AI](#connect-4-game-with-ai)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Getting Started](#getting-started)
-  - [Usage](#usage)
-  - [AI Implementation](#ai-implementation)
-  - [Contributing](#contributing)
-  - [License](#license)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [AI Implementation](#ai-implementation)
+- [Future Work](#future-work)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
@@ -64,7 +63,9 @@ To get started with Connect-4 on your local machine, follow these steps:
 
 The basic AI in this Connect-4 game is implemented using a simple algorithm that aims to block the opponent from forming a winning combination. It analyzes the current state of the game board and strategically places its discs to hinder the opponent's progress.
 
-The AI's intelligence level can be adjusted and enhanced to make it more challenging for players who want a tougher opponent.
+## Future Work
+
+Presently, the AI uses a basic, greedy algorithm to decide its next moves by brute-forcing all the possible combinations. In the future, the AI's intelligence level can be adjusted and enhanced using other AI algorithms such as `Mini-Max` to make it more challenging for players who want a tougher opponent.
 
 ## Contributing
 
